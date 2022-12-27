@@ -4,7 +4,7 @@ class Add
 {
 public static void main(String[] arg)
 {
-int a,b,c,d;
+int a,b,c;
 Scanner sc=new Scanner(System.in);
 System.out.println("Enter first number");
 a=sc.nextInt();
@@ -16,5 +16,9 @@ System.out.println(" Addition of two numbers is : "+c);
 static int addition(int x,int y)
 {
 	return x+y;
+}
+static int substraction(int x,int y)
+{
+	return x-y;
 }
 }
